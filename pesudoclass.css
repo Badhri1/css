@@ -1,0 +1,41 @@
+.container > button{
+    background-color: red;
+    color: white;
+}
+
+.container > button:hover{
+    background-color: blue;
+}
+
+.container > button:active{
+    background-color: green;
+}
+
+.container2 >h1:first-child {
+    color: red;
+}
+
+/*
+.container2 >h1:last-child {
+    color: red;
+}*/
+
+.container2 >p:first-of-type{
+    color: blue;
+}
+/*
+.container3 > ul >li:nth-child(3){
+    color: red;
+}
+
+.container3 > ul >li:nth-child(2n){
+    color: red;
+}
+
+*/
+
+.container3 > ul >li:nth-child(2n+1)
+{
+    color: orange;
+}
+

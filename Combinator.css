@@ -1,0 +1,59 @@
+/*combination of two or more simple selector*/
+
+/*descsendant selector */
+/*
+.container p{
+    color: red;
+}
+
+.container2 p{
+    color: orange;
+}
+
+ h1{
+    color: brown;
+}
+
+.container3 p{
+    color: rebeccapurple;
+}
+*/
+
+/*
+.container > p{
+    color: red;
+} 
+*/
+
+/*
+.container > .container2 > p{
+    color: red;
+} 
+*/
+/*
+.container3 > #p1{
+   color: red;
+}
+*/
+
+/*
+.container3 > #p1+p {
+    color: blue;
+}
+
+*/
+
+/*
+.container3 > #p1+p+p{
+        color: orange;]
+}
+        */
+
+.container3 > #p1~p{
+    color: green;
+}
+
+.container3 > button:hover {
+    color:wheat;
+    background-color: brown;
+}

@@ -1,0 +1,41 @@
+/*simple Selector*/
+/* Tagname Selector*/
+h1{
+    color:brown;
+    text-align: center;
+}
+
+/* Using ID Selector */
+#para1{
+    color: purple;
+    font-size: 20px;
+}
+
+#para2{
+    color: red;
+    font-size: 20px;
+}
+
+
+/* Class Selector */
+
+.para{
+    color: blue;
+    font-size: 20px;
+}
+
+
+/* universal selector*/
+
+*{
+    background-color:beige;
+      
+}
+
+/*group selector*/
+
+h2,h3,h4,h5{
+    color: red;
+    text-align: center;
+}
+
